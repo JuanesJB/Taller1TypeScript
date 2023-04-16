@@ -1,0 +1,89 @@
+.containerHead
+{
+    display: flex;
+
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 5px;
+
+    border-color: rgb(0, 0, 0);
+
+    border-width: 5px;
+
+    margin-left: 1rem;
+
+    margin-right: 1rem;
+
+    vertical-align: sub;
+}
+h1
+{
+    color: rgb(255, 255, 255);
+}
+.containerBody
+{
+    display: inline-flex;
+
+    margin-top: 30px;
+
+    background-color: rgb(255, 255, 255);
+
+    color: rgb(0, 0, 0);
+
+    font-family: 'Times New Roman', Times, serif;
+
+    margin-left: 1rem;
+
+    margin-right: 1rem;
+
+    display: flex;
+
+    justify-content: center; /* centers the child element horizontally */
+
+    align-items: center; /* centers the child element vertically */
+
+    height: 50vh; /* sets the container height to be the height of the viewport */
+
+}
+
+table,th,tb 
+{
+    border: 2px solid;
+
+    background-color: rgb(243, 243, 243);
+
+}
+h6
+{
+    font-size: 20px;
+
+}
+tbody
+{
+    background-color: #ffffff;
+}
+tfoot
+{
+    background-color: rgb(243, 242, 242);
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(243, 243, 243);
+  }
+  
